@@ -1,3 +1,7 @@
 Тестирование API
 [Первая коллекция]
-(https://www.postman.com/kseniagt/workspace/my-workspace/collection/38269191-ca553906-3558-4d38-8b63-01b8a6485be9?action=share&creator=38269191)
+(https://test66-2666.postman.co/workspace/Workspace~795a7089-24a0-4b5e-8fcc-0141e2bb9366/collection/38269191-50a96d76-b2ae-4c7c-afac-10293a73547f?action=share&creator=38269191&active-environment=38269191-a8b678be-66fa-41e9-872b-b4a48ad8ec50)
+[Создание коллекции, автотесты для Payment]
+(https://github.com/KGavrilenko-Turknas/api/commit/cd34153f75fb93d4560b43df30852e74b78b9eba)
+[Создание коллекции, авторесты]
+(https://github.com/KGavrilenko-Turknas/api/commit/acbb1cfe0cb58e1a341cb986ef5f9aba3977d572)
