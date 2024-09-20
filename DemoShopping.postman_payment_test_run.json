@@ -1,0 +1,239 @@
+{
+	"id": "9bd885b6-0d4d-4076-9a5e-7c0803a75582",
+	"name": "DemoShopping Copy",
+	"timestamp": "2024-09-20T05:53:09.603Z",
+	"collection_id": "38269191-50a96d76-b2ae-4c7c-afac-10293a73547f",
+	"folder_id": "38269191-a32f1543-401e-435a-baab-91e85d6b8c09",
+	"environment_id": "38269191-a8b678be-66fa-41e9-872b-b4a48ad8ec50",
+	"totalPass": 5,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-20T05:53:06.656Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "45af6fd7-9230-44fe-8674-ca9f64905ea5",
+			"name": "Код 201 Создание заказа из всех товаров корзины",
+			"url": "https://qa.demoshopping.ru/orders",
+			"time": 675,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				675
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "fd812d78-62c2-42a3-85a2-9371ce034f79",
+			"name": "Код 200 Оплата заказов пользователя",
+			"url": "https://qa.demoshopping.ru/pay",
+			"time": 428,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				428
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "14111366-37f4-42c6-b1d1-8adcb297f6de",
+			"name": "Код 400 Оплата заказов пользователя с невалидными данными карты",
+			"url": "https://qa.demoshopping.ru/pay",
+			"time": 96,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				96
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "21a92942-2f29-464e-9c2d-7c9ead909d26",
+			"name": "Код 401 Оплата заказов неавторизованным пользователем",
+			"url": "https://qa.demoshopping.ru/pay",
+			"time": 101,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "d7915286-ef4e-42d7-9709-ac531bd3c2ed",
+			"name": "Код 500 Ошибка сервера при попытке оплаты заказов пользователя",
+			"url": "https://qa.demoshopping.ru/pay",
+			"time": 97,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 500": false
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				97
+			],
+			"allTests": [
+				{
+					"Status code is 500": false
+				}
+			]
+		},
+		{
+			"id": "3abd7017-70d6-483a-863d-a25fd9c3d31e",
+			"name": "Код 200 Обновление балансов карт и PayPal",
+			"url": "https://qa.demoshopping.ru/updateBalances",
+			"time": 108,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9a908733-ba4d-477c-9cc1-6b504be131ff",
+			"name": "Код 500 Ошибка сервера - не смогла получить",
+			"url": "https://qa.demoshopping.ru/updateBalances",
+			"time": 97,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 500": false
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				97
+			],
+			"allTests": [
+				{
+					"Status code is 500": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1602,
+	"collection": {
+		"requests": [
+			{
+				"id": "45af6fd7-9230-44fe-8674-ca9f64905ea5",
+				"method": "POST"
+			},
+			{
+				"id": "fd812d78-62c2-42a3-85a2-9371ce034f79",
+				"method": "POST"
+			},
+			{
+				"id": "14111366-37f4-42c6-b1d1-8adcb297f6de",
+				"method": "POST"
+			},
+			{
+				"id": "21a92942-2f29-464e-9c2d-7c9ead909d26",
+				"method": "POST"
+			},
+			{
+				"id": "d7915286-ef4e-42d7-9709-ac531bd3c2ed",
+				"method": "POST"
+			},
+			{
+				"id": "3abd7017-70d6-483a-863d-a25fd9c3d31e",
+				"method": "GET"
+			},
+			{
+				"id": "9a908733-ba4d-477c-9cc1-6b504be131ff",
+				"method": "GET"
+			}
+		]
+	}
+}
