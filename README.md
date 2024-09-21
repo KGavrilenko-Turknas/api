@@ -10,4 +10,4 @@
 (Добавление генерации данных для метода "Добавление новых продуктов")
 [https://test66-2666.postman.co/workspace/Workspace~795a7089-24a0-4b5e-8fcc-0141e2bb9366/request/38269191-f652250b-76cf-4927-85ea-fc81d11e57df?action=share&source=copy-link&creator=38269191&ctx=documentation]
 (Тест кейсы для GET, POST, PUT, PATCH, DELETE запросов)
-[https://github.com/KGavrilenko-Turknas/api/commit/b67664ac8c5ff419bf2690f5deda2d80af91f734]
+[https://github.com/KGavrilenko-Turknas/api/commit/f44116e27771728915e66374248d2c91555e45f2]
